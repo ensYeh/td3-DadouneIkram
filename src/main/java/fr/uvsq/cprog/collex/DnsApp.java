@@ -4,7 +4,7 @@ package fr.uvsq.cprog.collex;
  * Hello world!
  *
  */
-public class App 
+public class DnsApp 
 {
     public static void main( String[] args )
     {
