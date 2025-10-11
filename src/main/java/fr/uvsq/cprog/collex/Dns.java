@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Properties;
 
 
-public class Dns {
+public class Dns {  
   private final List<DnsItem> database = new ArrayList<>();
   private final Path dbPath;
 
