@@ -82,4 +82,3 @@ Cette classe fournira une méthode `nextCommande` qui analysera le texte saisi p
 . Réaliser la classe principale `DnsApp`.
 La méthode `run` de cette classe interagira avec l'interface utilisateur pour récupérer la prochaine commande, l'exécutera puis affichera la résultat.
 
-![alt text](image.png "Optional title")
