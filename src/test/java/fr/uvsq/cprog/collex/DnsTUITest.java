@@ -17,7 +17,7 @@ public class DnsTUITest {
         ByteArrayInputStream in = new ByteArrayInputStream(input.getBytes());
         System.setIn(in);
 
-        Dns dns = new Dns(); // Assume you have a default constructor
+        Dns dns = new Dns(); 
         AtomicBoolean running = new AtomicBoolean(true);
         DnsTUI tui = new DnsTUI(dns, running);
 
@@ -43,7 +43,6 @@ public class DnsTUITest {
         ByteArrayInputStream in = new ByteArrayInputStream(input.getBytes());
         System.setIn(in);
 
-        // Capture output
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
 
