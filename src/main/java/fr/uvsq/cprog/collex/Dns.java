@@ -37,7 +37,7 @@ public class Dns {
         loadDatabase();
     }
 
-    private void loadDatabase() throws IOException {
+    protected void loadDatabase() throws IOException {
         List<String> lines = Files.readAllLines(dbPath);
         for (String line : lines) {
             if (line.trim().isEmpty()) {
